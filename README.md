@@ -3,4 +3,4 @@ carpeta se encuentran los ejercicios numerados, los ejercicios que no estan esti
 los ejercicios anteriores en los cuales habia la posibilidad de hacerlos todos en un solo html.
 por ej: 
 ejercicio4 -->ejercicio5 y 6 | 
- ejercicio7 
+ ejercicio7 |  ejercicio8 | ejercicio9--> ejercicio10 y 11 | ejercicio 12.
