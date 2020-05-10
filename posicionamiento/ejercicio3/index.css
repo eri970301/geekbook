@@ -1,0 +1,19 @@
+header{
+    background-color: blueviolet;
+    position: fixed;
+    margin: 0px;
+    width: 100%;
+}
+#lista{
+    display: flex;
+    list-style: none; 
+    justify-content: flex-end;
+}
+#items{
+    margin-left: 12px;
+    margin-right: 10px;
+}
+main{
+    position: absolute;
+    z-index: -1;
+}

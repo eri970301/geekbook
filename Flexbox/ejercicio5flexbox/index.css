@@ -1,0 +1,14 @@
+body{
+    flex-basis: auto;
+}
+header{
+    background-color: azure;
+}
+main{
+    background-color: beige;
+    flex-grow: 3;
+    min-height: 300vh;
+}
+footer{
+    background-color: bisque;
+}

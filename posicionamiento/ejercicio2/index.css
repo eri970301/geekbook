@@ -1,0 +1,29 @@
+
+.div1{
+    height: 300px;
+    width: 300px;
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;  
+    top: 50px;
+    left: 100px;
+    background-color: aqua;
+    position: relative;
+}.div2{
+    height: 300px;
+    width: 300px;
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;  
+    bottom: 320px;
+    right: 150px;
+    position: relative; 
+    background-color: bisque;
+}.div3{
+    height: 300px;
+    width: 300px;
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;  
+    background-color: blueviolet;
+    left: 180px;
+    bottom: 240px;
+    position: relative;
+}

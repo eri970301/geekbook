@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(187, 184, 184);
+}
+header{
+    width: 100vw;
+    height: 10vh;
+}
+section{
+    background-color: rgb(36, 139, 36);
+    display: flex;
+    flex-direction: column;
+}
+main{
+    background-color: greenyellow;
+}
+
+footer{
+    background-color: gray;
+}
+@media all and (min-width: 480px) and (max-width: 1000px){
+    #todo{
+        display: flex;
+        flex-direction: row;
+    }
+    section{
+        width: 30vw;
+        margin-right: 20px;
+    }
+    #cuadro{
+        float: right;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        background-color: lavender;
+    }
+}
+@media all and (min-width: 1000px){
+    #todo{
+        display: flex;
+        flex-direction: row;
+    }
+    section{
+        width: 20vw;
+        margin-bottom: auto;
+        margin-right: 20px;
+    }
+    #cuadro{
+        float: right;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        background-color: lavender;
+    }
+    #principal{
+        display: flex;
+        flex-direction: row;
+    }
+    main{
+        height: 80vh;
+    }
+    footer{
+        margin-bottom: auto;
+        margin-left: 20px;
+    }
+}

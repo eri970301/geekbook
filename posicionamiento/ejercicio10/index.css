@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+}
+#enlace{
+    cursor: help;
+}
+.tooltip{
+    position: relative;
+    display: inline;
+}
+.tooltiptext{
+    visibility: hidden;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+    border: 2px solid black;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}

@@ -1,0 +1,37 @@
+body{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: chocolate;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(179, 139, 216);
+    justify-content: center;
+    height: 10vh;
+}
+article{
+    display: block;
+    padding-bottom: 20px;
+}
+p{
+    padding-left: 20px;
+}
+footer{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.redes{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#cookies{
+    font-size: small;
+    background-color: rgb(119, 151, 54);
+    width: 50vw;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
